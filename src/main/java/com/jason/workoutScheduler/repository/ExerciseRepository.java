@@ -1,11 +1,14 @@
 package com.jason.workoutScheduler.repository;
 
 import com.jason.workoutScheduler.records.Exercise;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
+@Repository
 public class ExerciseRepository {
 
     private List<Exercise> exercises;
